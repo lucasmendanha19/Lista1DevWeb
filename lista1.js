@@ -43,6 +43,26 @@ else if (hora >= 00 & hora < 6){
 
 }
 
+// Questão 4
+function criar(){
+    pagina = window.open('');
+
+}
+
+function escrever(){
+    pagina.document.write("Hello World");
+   
+}
+
+function mudar(){
+    pagina.document.bgColor = "blue";
+    pagina.document.fgColor = "white";
+}
+
+function fechar(){
+    pagina.close();
+}
+
 
 
 // Questão 5
@@ -77,4 +97,13 @@ function salario(){
     document.writeln("Valor do reajuste:" + valorReajuste, "<br>");
     document.writeln("Salario com ajuste:" + salarioAumentado, "<br>");
     
+}
+
+// Questao 9
+
+function confere(){
+    var x = document.getElementsByTagName("input");
+    
+    if(x.checked )
+
 }
